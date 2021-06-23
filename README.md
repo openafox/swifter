@@ -14,6 +14,9 @@ To know about latest improvements, please check [changelog](docs/changelog.md).
 ```
 $ pip install -U pandas # upgrade pandas
 $ pip install swifter # first time installation
+$ pip install swifter[ray] # first time installation including modin[ray]
+$ pip install swifter[dask] # first time installation including modin[dask]
+
 
 $ pip install -U swifter # upgrade to latest version if already installed
 ```
